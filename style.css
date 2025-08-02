@@ -58,16 +58,20 @@ a{
 
 .cards-container {
     display: flex;
-    
     gap: 50px;
 }
 
+img {
+width: 200px;
+height: 200px;
+border: 1px rgb(101, 185, 241) solid;
+border-radius: 10px;
+}
 .item-card {
-    height: 200px;
-    width: 200x;
-    background-color: aqua;
-    border: 1px rgb(101, 185, 241) solid;
-    border-radius: 10px;
+   
+   max-width: 200px;
+    /* background-color: aqua; */
+    
 }
 
 .quote {
