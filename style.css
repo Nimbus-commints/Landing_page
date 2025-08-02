@@ -14,12 +14,12 @@ body {
     padding-right: 15px;
 }
 
-
 ul {
     display: flex;
     list-style-type: none;
     gap: 15px;
 }
+
 a{
     list-style-type: none;
     color: white;
@@ -31,3 +31,65 @@ a{
     font-weight: bold;
     font-size: 24px;
 }
+
+.content {
+    display: flex;
+    background-color: #1F2937;
+    padding:15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-2{
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+}
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container {
+    display: flex;
+    
+    gap: 50px;
+}
+
+.item-card {
+    height: 200px;
+    width: 200x;
+    background-color: aqua;
+    border: 1px rgb(101, 185, 241) solid;
+    border-radius: 10px;
+}
+
+.cuote-container {
+    width: 400px ;
+    height: 200px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.author-cuote {
+    font-style: italic;
+}
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+.cuote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+
+
